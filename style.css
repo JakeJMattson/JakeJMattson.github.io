@@ -1,57 +1,58 @@
 body{
-    margin:0px;
-    font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:#f0e7d5;
-    background:#252525;
+     margin: 0px;
+     font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     color: #f0e7d5;
+     background: #252525 
 }
-#header{
-    top:0px;
-    background:#353535;
-    border-bottom:4px solid #434343;
-	margin-bottom:25px;
+ #header{
+     top: 0px;
+     background: #353535;
+     border-bottom: 4px solid #434343;
+     margin-bottom: 25px 
 }
-h1,h2{
-    color:#e8e8e8;
-    margin:0;
-    font-family:'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight:normal
+ h1,h2{
+     color: #e8e8e8;
+     margin: 0;
+     font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: normal 
 }
-h1{
-    font-size:48px
+ h1{
+     font-size: 48px 
 }
-h2{
-    font-size:32px
+ h2{
+     font-size: 32px 
 }
-.inner{
-    max-width:620px;
-    margin:auto;
+ .inner{
+     max-width: 620px;
+     margin: auto 
 }
-p{
- text-align: justify;
- font-size:16px
+ p{
+     text-align: justify;
+     font-size: 16px 
 }
-a{
-    color:#ffcc00;
-    text-decoration:none
+ a{
+     color: #ffcc00;
+     text-decoration: none 
 }
-.button{
-	display:inline-block;
-    width:20%;
-    font-family:'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.2);
-    font-size:14px;
-    color:white;
-    border:1px solid #5d910b;
-    box-shadow:inset 0px 1px 0px rgba(255,255,255,0.3),0px 3px 7px rgba(0,0,0,0.7);
-    background-color:#93bd20;
-    padding:10px 12px;
+ .button{
+     display: inline-block;
+     width: 20%;
+     margin-top: 5px;
+     padding: 10px 12px;
+     font-size: 14px;
+     font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+     color: #FFFFFF;
+     background-color: #93bd20;
+     border: 1px solid #5d910b;
+     box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3),0px 3px 7px rgba(0,0,0,0.7) 
 }
-footer{
-	margin-top:50px;
-	text-align:center;
+ footer{
+     margin-top: 50px;
+     text-align: center 
 }
-footer a img{
-	width:40px;
-	height:40px;
-	margin-top:10px;
+ footer a img{
+     width: 40px;
+     height: 40px;
+     margin-top: 10px 
 }
