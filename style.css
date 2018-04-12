@@ -4,7 +4,7 @@ body{
      color: #f0e7d5;
      background: #252525 
 }
- #header{
+ header{
      top: 0px;
      background: #353535;
      border-bottom: 4px solid #434343;
@@ -13,8 +13,8 @@ body{
  h1,h2{
      color: #e8e8e8;
      margin: 0;
-     font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-     font-weight: normal
+     font-weight: normal;
+     text-align: center 
 }
  h1{
      font-size: 48px 
@@ -24,6 +24,8 @@ body{
 }
  .inner{
      max-width: 620px;
+     padding-left: 25px;
+     padding-right: 25px;
      margin: auto 
 }
  p{
@@ -39,8 +41,6 @@ body{
      width: 35%;
      margin-top: 5px;
      padding: 10px 12px;
-     font-size: 14px;
-     font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
      text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
      color: #FFFFFF;
      background-color: #93bd20;
