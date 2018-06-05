@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-US">
    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <script src="assets/js/jquery.fittext.js"></script>
    <head>
       <link rel="stylesheet" href="./assets/css/style.css">
    </head>
    <body>
       <div class="inner">
          <div>
-            <h1>Jake's Code Projects</h1>
+            <h1 id="title">Jake's Code Projects</h1>
             <hr>
          </div>
          <div>
-            <h2>About</h2>
+            <h1 id="about">About</h1>
             <p>
                This page is intended to showcase my projects.
                My projects are mostly just things I find cool and have no guarantee to be useful to anyone or anything. 
                I hope someone enjoys them as much as I do.
                I am interested in automation, image processing, and proof-of-concept projects.
             </p>
-            <h2>Background</h2>
+            <h1 id="background">Background</h1>
             <p>
                My name is Jake, and I am fascinated by technology. 
                I became interested in the field of Computer Science as a senior in high school.
@@ -28,7 +30,7 @@
                I went on to create dozens of programs in Ti-Basic, and my addiction was formed.
                I have been learning and coding ever since.
             </p>
-            <h2>Projects</h2>
+            <h1 id="projects">Projects</h1>
             <p>
                Here you can check out all the projects that meet my publishing standards.
                As projects from my repositories are updated, they will be linked here.
@@ -60,5 +62,9 @@
             </a>
          </div>
       </footer>
+      <script type="text/javascript">$("#title").fitText(1.1);</script>
+      <script type="text/javascript">$("#about").fitText(1.5);</script>
+      <script type="text/javascript">$("#background").fitText(1.5);</script>
+      <script type="text/javascript">$("#projects").fitText(1.5);</script>
    </body>
 </html>

@@ -1,19 +1,11 @@
 body{
      font: 14px/1.5 sans-serif;
-     color: #f0e7d5;
+     color: #e8e8e8;
      background: #252525;
      text-align: center 
 }
- h1,h2{
-     color: #e8e8e8;
-     margin: 0;
-     font-weight: normal 
-}
  h1{
-     font-size: 48px 
-}
- h2 {
-     font-size: 36px 
+     margin: 0;
 }
  hr{
      border:0;
