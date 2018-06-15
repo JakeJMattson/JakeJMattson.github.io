@@ -39,11 +39,11 @@
                Clicking any of the project buttons below will redirect you to the GitHub Pages site where you can learn more about the project.
             </p>
             <div align="center">
-            	<script>makeSection("AnyToImage");</script>
-            	<script>makeSection("FacialRecognition");</script>
-            	<script>makeSection("PixelDetails");</script>
-            	<script>makeSection("SpamBot");</script>
-            	<script>makeSection("TouchControl");</script>
+            	<script>createProject("AnyToImage");</script>
+            	<script>createProject("FacialRecognition");</script>
+            	<script>createProject("PixelDetails");</script>
+            	<script>createProject("SpamBot");</script>
+            	<script>createProject("TouchControl");</script>
             </div>
          </div>
       </div>
@@ -52,15 +52,9 @@
             Contact me at <a href="mailto:JakeJMattson@gmail.com">JakeJMattson@gmail.com</a>
          </div>
          <div>
-            <a href="https://github.com/mattson543">
-            <img title="GitHub" alt="GitHub" src="./assets/images/GitHub.svg"/>
-            </a>
-            <a href="https://www.paypal.me/JakeJMattson">
-            <img title="PayPal" alt="PayPal" src="./assets/images/PayPal.png"/>
-            </a>
-            <a href="https://www.sololearn.com/Profile/5136631">
-            <img title="SoloLearn" alt="Sololearn" src="./assets/images/SoloLearn.png"/>
-            </a>
+	         <script>createIcon("https://github.com/mattson543", "GitHub", ".svg");</script>
+	         <script>createIcon("https://www.paypal.me/JakeJMattson", "PayPal");</script>
+	         <script>createIcon("https://www.sololearn.com/Profile/5136631", "SoloLearn");</script>
          </div>
       </footer>
       <script>$("#title").fitText(1.1);</script>

@@ -1,4 +1,4 @@
-function makeSection(name)
+function createProject(name)
 {
 	//Opening tag
 	document.write("<div>");
@@ -14,4 +14,20 @@ function makeSection(name)
 	
 	//Closing tag
 	document.write("</div>");
+}
+
+function createIcon(href, name, extension = ".png")
+{
+	//Construct arguments
+	var title = " title = " + addQuotes(name);
+	var alt = " alt = " + addQuotes(name);
+	var src = " src = \"./assets/images/" + name + extension + "\"";
+	
+	//Write arguments
+	document.write("<a href = " + addQuotes(href) + "><img " + title + alt + src + "/></a>");
+}
+
+function addQuotes(string)
+{
+	return "\"" + string + "\"";
 }
