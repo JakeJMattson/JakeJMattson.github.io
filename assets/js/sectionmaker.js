@@ -22,9 +22,10 @@ function createIcon(href, name, extension = ".png")
 	var title = " title = " + addQuotes(name);
 	var alt = " alt = " + addQuotes(name);
 	var src = " src = \"./assets/images/" + name + extension + "\"";
+	var size = " height = \"40\" width = \"40\"";
 	
 	//Write arguments
-	document.write("<a href = " + addQuotes(href) + "><img " + title + alt + src + "/></a>");
+	document.write("<a href = " + addQuotes(href) + "><img " + title + alt + src + size + "/></a>");
 }
 
 function addQuotes(string)
