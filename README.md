@@ -7,4 +7,4 @@ Hoping to make it look better when I have the time to learn more about design.
 </p>
 
 ## Acknowledgments
-* Dynamic headers thanks to [FitText](https://github.com/adactio/FitText.js)
+* Template by [GitHubFolio](https://githubfolio.herokuapp.com/)
