@@ -1,76 +1,61 @@
 <!DOCTYPE html>
-<html lang="en-US">
-   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-   <script src="assets/js/sectionmaker.js"></script>
-   <script src="assets/js/fittext.js"></script>
+<html lang="en">
    <head>
-      <link rel="stylesheet" href="./assets/css/style.css">
+      <meta charSet="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossOrigin="anonymous"/>
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet"/>
+      <script src="assets/js/sectionmaker.js"></script>
+      <title>JakeJMattson | My GitHub Portfolio</title>
    </head>
-   <body>
-      <div class="inner">
-         <div>
-            <h1 id="title">Jake's Code Projects</h1>
-            <hr>
+   <body class="text-center">
+      <nav class="navbar navbar-expand pt-3 pb-4">
+         <span class="navbar-brand">GitHub Portfolio</span>
+         <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/mattson543" style="color:initial" target="_blank">
+                  <i class="fab fa-github-square fa-2x"></i>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" style="color:initial" href="mailto:JakeJMattson@gmail.com">
+                  <i class="fas fa-envelope-square fa-2x"></i>
+                  </a>
+               </li>
+            </ul>
          </div>
-         <div>
-            <h1 id="about">About</h1>
-            <p>
+      </nav>
+      <div class="bg-light pb-5 pt-2 border-top border-bottom">
+         <div style="position:relative">
+            <img src="https://avatars3.githubusercontent.com/u/22604455?v=4" alt="Profile" class="rounded-circle mx-auto d-block justify-content-center mt-2 mb-2 border bg-white p-2" style="position:absolute;top:-30px;left:50%;transform:translate(-50%, -10%);width:150px"/>
+         </div>
+         <div style="font-family:Oswald;font-weight:600;color:#666666">
+            <h1 style="font-size:2.2rem;color:#3a4145;padding-top:130px">Jake</h1>
+            <p>"Code speaks; I'm just a good listener."</p>
+            <h5>
                This page is intended to showcase my projects.
-               My projects are mostly just things I find cool and have no guarantee to be useful to anyone or anything. 
-               I hope someone enjoys them as much as I do.
                I am interested in automation, image processing, and proof-of-concept projects.
-            </p>
-            <h1 id="background">Background</h1>
-            <p>
-               My name is Jake, and I am fascinated by technology. 
-               I became interested in the field of Computer Science as a senior in high school.
-               One requirement for my pre-calculus class was a Ti-84 calculator. 
-               During the class, someone showed me a quadratic formula program, and I was amazed. 
-               Just a few lines of code could vastly improve and simplify my life. 
-               I went on to create dozens of programs in Ti-Basic, and my addiction was formed.
-               I have been learning and coding ever since.
-            </p>
-            <h1 id="projects">Projects</h1>
-            <p>
-               Here you can check out all the projects that meet my publishing standards.
-               Clicking any of the project buttons below will redirect you to the GitHub Pages site where you can learn more about the project.
-            </p>
-            <div align="center">
-               <script>
-                  createProject("AnyToImage");
-                  createProject("FacialRecognition");
-                  createProject("PixelDetails");
-                  createProject("SpamBot");
-                  createProject("TouchControl");
-               </script>
-            </div>
-            <p>
-               As projects from my repositories are updated, they will be linked here.
-               To see all of my projects, and keep up with code updates, follow me on GitHub!     
-               <a href="https://github.com/mattson543?tab=followers">
-               <img src="https://img.shields.io/github/followers/mattson543.svg?style=social&amp;label=Follow&amp;maxAge=2592000" 
-                  align="right" alt="GitHub followers">
-               </a>
-            </p>
+               In general, my projects are mostly just things I find cool or fun to make. 
+               I hope someone enjoys them as much as I do.
+            </h5>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <script>
+               createProjectSection("TouchControl", "Control at your fingertips.");
+               createProjectSection("PixelDetails", "Mouse location based pixel details.");
+               createProjectSection("AnyToImage", "Convert files to images.");
+               createProjectSection("SpamBot", "Multiplying automated browsers.");
+               createProjectSection("FacialRecognition", "Facial detection and recognition.");
+            </script>
          </div>
       </div>
       <footer>
-         <div>
-            Contact me at <a href="mailto:JakeJMattson@gmail.com">JakeJMattson@gmail.com</a>
-         </div>
-         <div>
-            <script>
-               createIcon("https://github.com/mattson543", "GitHub", ".svg");
-               createIcon("https://www.paypal.me/JakeJMattson", "PayPal");
-               createIcon("https://www.sololearn.com/Profile/5136631", "SoloLearn");
-            </script>
-         </div>
+         <div class="text-center py-3">Template by <a href="https://githubfolio.herokuapp.com/">GitHubFolio</a></div>
       </footer>
-      <script>
-         fitText(document.getElementById('title'), 1.1)
-         fitText(document.getElementById('about'), 1.3)
-         fitText(document.getElementById('background'), 1.3)
-         fitText(document.getElementById('projects'), 1.3)
-      </script>
    </body>
 </html>
