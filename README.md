@@ -1,5 +1,3 @@
-# mattson543.github.io
-
 <p align="justify">
 Basic website linking to each of my repositories with a GitHub Pages site.
 I am in a no way a web developer. This is my only web dev experience.
