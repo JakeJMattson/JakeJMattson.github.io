@@ -1,4 +1,0 @@
-This is a Brave Payments publisher verification file.
-
-Domain: jakejmattson.github.io
-Token: 332a8c9543e3d3f67139e4cf4e4208f5b14ae1ee92a036da08ce463fb70cca92
