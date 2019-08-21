@@ -1,6 +1,6 @@
 <p align="center">
   <a href="LICENSE.md">
-    <img src="https://img.shields.io/github/license/JakeJMattson/TouchControl.svg">
+    <img src="https://img.shields.io/github/license/JakeJMattson/TouchControl.svg" alt="license">
   </a>
 </p>
 
